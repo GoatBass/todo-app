@@ -1,0 +1,53 @@
+:root {
+    --bright-blue: hsl(220, 98%, 61%);
+
+    /* Dark theme */
+    --very-dark-blue: hsl(235, 21%, 11%);
+    --very-dark-desaturated-blue: hsl(235, 24%, 19%);
+    --light-grayish-blue: hsl(234, 39%, 85%);
+    --light-hrayish-bluer-hover: hsl(236, 33%, 92%);
+    --dark-grayish-blue: hsl(234, 11%, 52%);
+    --very-dark-grayish-blue: hsl(233, 14%, 35%);
+    --very-dark-grayish-blue-two: hsl(237, 14%, 26%);
+
+
+}
+
+body {
+    background: rgb(24, 23, 23) url("/images/bg-desktop-dark.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.head > img {
+    align-self: center;
+}
+
+.toadd {
+    background-color: var(--very-dark-desaturated-blue);
+}
+
+input {
+    background-color: inherit;
+    padding: 15px;
+}
+
+#addTodo {
+    width: 90%;
+}
+
+h1 {
+    letter-spacing: 1rem;
+}
