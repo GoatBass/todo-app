@@ -291,6 +291,8 @@ li {
 @media (min-width: 760px) {
     .header-flexbox {
         padding: 5rem;
+        margin: 0 auto;
+        width: 40%;
     }
 }
 
@@ -335,7 +337,7 @@ li {
     }
     .header-flexbox {
         padding: 2rem 6rem;
-        margin: 0;
+        
     }
     .container {
         width: 40%;
