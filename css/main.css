@@ -261,7 +261,7 @@ li {
     color: var(--light-theme_dark-grayish-blue);
 }
 .color-light-theme-three {
-    color: var(--light-theme_light-grayish-blue:);
+    color: var(--light-theme_light-grayish-blue);
 }
 .color-light-theme-four {
     color: var(--dark-theme_light-grayish-blue-hoover);
@@ -325,10 +325,10 @@ li {
 
 @media (min-width: 1020px) {
     .banner-dark-theme {
-        background-image: url(/images/bg-desktop-dark.jpg);
+        background-image: url(../images/bg-desktop-dark.jpg);
     }
     .banner-light-theme {
-        background-image: url(/images/bg-desktop-light.jpg);
+        background-image: url(../images/bg-desktop-light.jpg);
     }
     .banner-image {
         padding-bottom: 2rem;
